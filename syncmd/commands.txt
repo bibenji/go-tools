@@ -1,0 +1,5 @@
+git -C [item] checkout [param1]
+git -C [item] pull origin [param1]
+docker-compose -f [item]/docker-compose.yml build --no-cache
+docker-compose -f [item]/docker-compose.yml up -d
+docker-compose -f [item]/docker-compose.yml ps
